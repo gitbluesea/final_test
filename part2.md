@@ -11,3 +11,4 @@ WHERE a.type = b.type
 AND a.status = 'Active'
 GROUP BY a. id, b.type, a.status, a.amount
 
+
