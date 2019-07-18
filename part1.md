@@ -48,20 +48,116 @@ sudo vi /etc/sysctl.conf
   =>  vm.swappiness=1
 </code></pre>
 
+6. SSH Connetion 설정
+<pre><code>
+
+</code></pre>
+
+7. Disable Transparent Hugepage Support
+<pre><code>
+sudo vi /etc/rc.d/rc.local
+  =>  
+echo "never" > /sys/kernel/mm/transparent_hugepage/enabled
+echo "never" > /sys/kernel/mm/transparent_hugepage/defrag
+sudo chmod +x /etc/rc.d/rc.local
+sudo vi /etc/default/grub
+   add -> transparent_hugepage=never (on line GRUB_CMDLINE_LINUX )
+grub2-mkconfig -o /boot/grub2/grub.cfg
+</code></pre>
+
+8. 필요시 IP V6 disable
+<pre><code>
+sudo sysctl -w net.ipv6.conf.all.disable_ipv6=1
+sudo sysctl -w net.ipv6.conf.default.disable_ipv6=1
+</code></pre>
+
+# Linux Setup
+
+ADD Account
+- 3800 UID 로 training 계정 생성, 암호 설정, skcc 그룹 생성
+- sudo 권한 부여
+<pre><code>
+
+</code></pre>
+
+
+
 
 <pre><code>
 
 </code></pre>
 
 
-<pre><code>
-
-</code></pre>
 
 
 <pre><code>
 
 </code></pre>
+
+
+
+
+<pre><code>
+
+</code></pre>
+
+
+
+
+<pre><code>
+
+</code></pre>
+
+
+
+
+<pre><code>
+
+</code></pre>
+
+
+
+
+<pre><code>
+
+</code></pre>
+
+
+
+
+<pre><code>
+
+</code></pre>
+
+
+
+
+<pre><code>
+
+</code></pre>
+
+
+
+
+<pre><code>
+
+</code></pre>
+
+
+
+
+<pre><code>
+
+</code></pre>
+
+
+
+
+<pre><code>
+
+</code></pre>
+
+
 
 
 <pre><code>
