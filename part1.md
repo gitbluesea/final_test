@@ -77,21 +77,21 @@ ADD Account
 - 3800 UID 로 training 계정 생성, 암호 설정, skcc 그룹 생성
 - sudo 권한 부여
 <pre><code>
-
+[centos@ip-172-31-39-152 ~]$ sudo groupadd skcc
+[centos@ip-172-31-39-152 ~]$ sudo useradd training -u 3800 -g skcc
+[centos@ip-172-31-39-152 ~]$ more /etc/passwd | grep skcc
+skcc:x:3800:1001::/home/skcc:/bin/bash
+[centos@ip-172-31-39-152 ~]$ sudo visudo
 </code></pre>
 
-
-
-
+IP address and DNS
 <pre><code>
-
+[centos@cm ~]$ getent hosts
 </code></pre>
 
-
-
-
+List the filesystem capacity
 <pre><code>
-
+[centos@cm ~]$ df -k
 </code></pre>
 
 
