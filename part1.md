@@ -1,6 +1,8 @@
 #  Data Tech Unit 정병우
-<br>
+
 <img src="part1/image/m1.jpg" width="30%">
+
+<br>
 
 # 1. Create a CDH Cluster on AWS
 
