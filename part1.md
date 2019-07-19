@@ -97,6 +97,20 @@ IP address and DNS
 <img src="part1/image/04.JPG">
 <img src="part1/image/05.JPG">
 
+List the Linux release you are using
+<img src="part1/image/10.JPG">
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 <img src="part1/image/06.JPG">
@@ -104,7 +118,6 @@ IP address and DNS
 
 <img src="part1/image/08.JPG">
 <img src="part1/image/09.JPG">
-<img src="part1/image/10.JPG">
 <img src="part1/image/11.JPG">
 <img src="part1/image/12.JPG">
 
