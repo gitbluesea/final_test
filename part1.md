@@ -101,8 +101,9 @@ skcc:x:3800:1001::/home/skcc:/bin/bash
 <br>
 <img src="part1/image/10.JPG">
 
-
-
+## List the file system capacity
+<br>
+<img src="part1/image/11.JPG">
 
 
 
@@ -119,7 +120,6 @@ skcc:x:3800:1001::/home/skcc:/bin/bash
 
 <img src="part1/image/08.JPG">
 <img src="part1/image/09.JPG">
-<img src="part1/image/11.JPG">
 <img src="part1/image/12.JPG">
 
 <img src="part1/image/17.JPG">
