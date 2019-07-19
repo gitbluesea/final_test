@@ -155,13 +155,15 @@ List the filesystem capacity
 
 <pre><code>
 
-</code></pre>
-
-
-
-
-<pre><code>
-
-</code></pre>
-
+## 2. In MySQL create the sample tables that will be used for the rest of the test
+```
+sqoop import --connect jdbc:mysql://localhost/test  \
+ --username training                                \
+ --password training                                \
+ --table authors                                    \
+ --driver com.mysql.jdbc.Driver                     \
+ --target-dir /user/training/                       \
+ --hive-import                                      \
+ --hive-table authors
+```
 
