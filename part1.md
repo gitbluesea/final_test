@@ -218,15 +218,35 @@ sudo tail -f /var/log/cloudera-scm-server/cloudera-scm-server.log
 <br>
 <img src="part1/image/27.JPG">
 
-
+- ssh 로그인 정보 제공
+<br>
 <img src="part1/image/28.JPG">
+
+- Install Agents
+<br>
 <img src="part1/image/29.JPG">
+
+- Parcel 설치
+<br>
 <img src="part1/image/30.JPG">
+
+- 호스트 정확성 검사
+<br>
 <img src="part1/image/31.JPG">
+
+- 역할 할당
+<br>
 <img src="part1/image/32.JPG">
+
+- 데이터베이스 설정
+<br>
 <img src="part1/image/33.JPG">
-<img src="part1/image/34.JPG">
+
+- 서비스 개시
+<br>
 <img src="part1/image/35.JPG">
+
+
 <img src="part1/image/80.JPG">
 <img src="part2/image/81.JPG">
 
