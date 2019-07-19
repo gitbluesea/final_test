@@ -187,36 +187,28 @@ SHOW DATABASES;
 <img src="part1/image/23.JPG">
 <img src="part1/image/24.JPG">
 
-##
-<br>
+## Configure Cloudera Manager to connect to the database
+- install cloudera-manager-daemons cloudera-manager-server
+```
+sudo yum install -y cloudera-manager-daemons cloudera-manager-server
+```
 
+- Run initialize script for SCM
+```
+sudo /usr/share/cmf/schema/scm_prepare_database.sh mysql scm scm training
 
+```
 
-##
-<br>
+- Start your Cloudera Manager server
+```
+sudo systemctl start cloudera-scm-server
 
-
-
-##
-<br>
-
-
-
-##
-<br>
-
-
-
-##
-<br>
-
-
-
-
-
-
+sudo tail -f /var/log/cloudera-scm-server/cloudera-scm-server.log
+```
 
 <img src="part1/image/25.JPG">
+
+# Cloudera Manager WEB UI (install services)
 <img src="part1/image/26.JPG">
 <img src="part1/image/27.JPG">
 <img src="part1/image/28.JPG">
@@ -229,64 +221,6 @@ SHOW DATABASES;
 <img src="part1/image/35.JPG">
 <img src="part1/image/80.JPG">
 <img src="part2/image/81.JPG">
-
-<pre><code>
-
-</code></pre>
-
-
-
-
-<pre><code>
-
-</code></pre>
-
-
-
-
-<pre><code>
-
-</code></pre>
-
-
-
-
-<pre><code>
-
-</code></pre>
-
-
-
-
-<pre><code>
-
-</code></pre>
-
-
-
-
-<pre><code>
-
-</code></pre>
-
-
-
-
-<pre><code>
-
-</code></pre>
-
-
-
-
-<pre><code>
-
-</code></pre>
-
-
-
-
-<pre><code>
 
 ## 2. In MySQL create the sample tables that will be used for the rest of the test
 ```
