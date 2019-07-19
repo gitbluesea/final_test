@@ -249,6 +249,7 @@ sudo tail -f /var/log/cloudera-scm-server/cloudera-scm-server.log
 ## In MySQL create the sample tables that will be used for the rest of the test
 <img src="part1/image/80.JPG">
 <img src="part1/image/81.JPG">
+
 ```
 sqoop import --connect jdbc:mysql://localhost/test  \
  --username training                                \
