@@ -83,7 +83,6 @@ sudo sysctl -w net.ipv6.conf.default.disable_ipv6=1
 skcc:x:3800:1001::/home/skcc:/bin/bash
 [centos@ip-172-31-39-152 ~]$ sudo visudo
 </code></pre>
-<img src="part1/image/07.JPG">
 <img src="part1/image/02.JPG">
 <img src="part1/image/13.JPG">
 <img src="part1/image/14.JPG">
@@ -109,9 +108,55 @@ skcc:x:3800:1001::/home/skcc:/bin/bash
 <br>
 <img src="part1/image/12.JPG">
 
+## List the /etc/passwd entries for training
+<br>
+<img src="part1/image/07.JPG">
+
+## List the /etc/group entries for skcc
+<br>
+
+## getent group skcc 와 getent passwd training
+<br>
 
 
 
+##
+<br>
+
+
+
+##
+<br>
+
+
+
+##
+<br>
+
+
+
+##
+<br>
+
+
+
+##
+<br>
+
+
+
+##
+<br>
+
+
+
+##
+<br>
+
+
+
+##
+<br>
 
 
 
