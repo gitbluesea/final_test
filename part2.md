@@ -18,6 +18,7 @@ SELECT A.id,
     ON A.type = B.type
  WHERE A.status='Active'
 ```
+<img src="part2/image/P1.JPG" >
 
 ## Problem 2
 
@@ -39,6 +40,7 @@ CREATE EXTERNAL TABLE solution
     LOCATION '/user/training/problem2/data/employee'
 SELECT * FROM solution;
 ```
+<img src="part2/image/p2.JPG" >
 
 ## Problem 3
 
@@ -50,10 +52,12 @@ SELECT C.id, C.fname, C.lname, C.hphone
     ON C.id = A.custid
  WHERE A.amount < 0;
 ```
+<img src="part2/image/p3.JPG" >
 
 ## Problem 4
 
 ```
+
 ```
 
 ## Problem 5
@@ -69,6 +73,7 @@ SELECT B.fname, B.lname, B.city, B.state
  WHERE B.city = 'Palo Alto'
    AND B.state = 'CA'
 ```
+<img src="part2/image/p5.JPG" >
 
 ## problem 6
 
@@ -94,6 +99,7 @@ SELECT id, fname, lname, address, city, state, zip, substring(birthday, 0 ,5)
   
 SELECT * FROM problem6.solution;
 ```
+<img src="part2/image/p6.JPG" >
 
 ## problem 7
 
@@ -103,6 +109,7 @@ SELECT CONCAT(fname, ',' , lname) AS name
  WHERE city = 'Seattle'
  ORDER BY name
 ```
+<img src="part2/image/p7.JPG" >
 
 ## problem 8
 
@@ -114,6 +121,8 @@ sqoop export --connect jdbc:mysql://localhost/problem8    \
       --table solution                                    \
       --input-fields-terminated-by '\t'
 ```
+<img src="part2/image/p8-1.JPG" >
+<img src="part2/image/p8-2.JPG" >
 
 ## problem 9
 
@@ -143,6 +152,7 @@ SELECT CONCAT('A', id),
   FROM problem9.customer;
 SELECT * FROM problem9.solution;
 ```
+<img src="part2/image/p9.JPG" >
 
 ## problem 10
 
@@ -162,6 +172,7 @@ SELECT A.id,
 select * from problem10.solution;	
 	
 ```
+<img src="part2/image/p10.JPG" >
 
 ## BONUS QUESTION:
 
@@ -179,6 +190,7 @@ SELECT A.brand,
  ORDER BY cnt DESC
  LIMIT 3;
 ```
+<img src="part2/image/ba.JPG" >
 
 ### b. 답
 
@@ -195,6 +207,7 @@ SELECT TO_DATE(order_date) as date,
  GROUP BY TO_DATE(order_date)
  ORDER BY date;
 ```
+<img src="part2/image/bb.JPG" >
 
 ### c. 답
 
@@ -208,3 +221,4 @@ SELECT A.order_id,
   ORDER BY total DESC
   LIMIT 10;
 ```
+<img src="part2/image/bc.JPG" >
