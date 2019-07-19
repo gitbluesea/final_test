@@ -84,8 +84,6 @@ skcc:x:3800:1001::/home/skcc:/bin/bash
 [centos@ip-172-31-39-152 ~]$ sudo visudo
 </code></pre>
 <img src="part1/image/02.JPG">
-<img src="part1/image/13.JPG">
-<img src="part1/image/16.JPG">
 
 ## IP address and DNS
 <pre><code>
