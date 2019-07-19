@@ -73,7 +73,7 @@ sudo sysctl -w net.ipv6.conf.default.disable_ipv6=1
 
 # Linux Setup
 
-ADD Account
+## ADD Account
 - 3800 UID 로 training 계정 생성, 암호 설정, skcc 그룹 생성
 - sudo 권한 부여
 <pre><code>
@@ -90,14 +90,15 @@ skcc:x:3800:1001::/home/skcc:/bin/bash
 <img src="part1/image/15.JPG">
 <img src="part1/image/16.JPG">
 
-IP address and DNS
+## IP address and DNS
 <pre><code>
 [centos@cm ~]$ getent hosts
 </code></pre>
 <img src="part1/image/04.JPG">
 <img src="part1/image/05.JPG">
 
-List the Linux release you are using
+## List the Linux release
+<br>
 <img src="part1/image/10.JPG">
 
 
