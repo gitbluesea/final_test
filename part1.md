@@ -85,7 +85,6 @@ skcc:x:3800:1001::/home/skcc:/bin/bash
 </code></pre>
 <img src="part1/image/02.JPG">
 <img src="part1/image/13.JPG">
-<img src="part1/image/14.JPG">
 <img src="part1/image/15.JPG">
 <img src="part1/image/16.JPG">
 
@@ -117,7 +116,7 @@ skcc:x:3800:1001::/home/skcc:/bin/bash
 
 ## getent group skcc 와 getent passwd training
 <br>
-
+<img src="part1/image/14.JPG">
 
 
 ##
