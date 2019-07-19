@@ -138,37 +138,61 @@ skcc:x:3800:1001::/home/skcc:/bin/bash
 
 ## install CDH version 5.15.2
 <br>
-
-
-
-##
-<br>
-
-
-
-##
-<br>
-
-
-
-##
-<br>
-
-
-
-##
-<br>
-
-
-
-##
-<br>
-
-
-
-
-<img src="part1/image/06.JPG">
 <img src="part1/image/06-1.JPG">
+<img src="part1/image/06.JPG">
+
+
+## Import Cloudera manager repository on mcm : 계정 trainning
+
+## mysql-connector setting
+```
+sudo wget https://dev.mysql.com/get/Downloads/Connector-J/mysql-connector-java-5.1.46.tar.gz ~/
+tar xvfz ~/mysql-connector-java-5.1.46.tar.gz
+sudo mkdir -p /usr/share/java
+sudo cp ~/mysql-connector-java-5.1.46/mysql-connector-java-5.1.46-bin.jar /usr/share/java/mysql-connector-java.jar
+```
+
+## Copy to all other nodes
+```
+scp /usr/share/java/mysql-connector-java.jar m1:~/
+scp /usr/share/java/mysql-connector-java.jar d1:~/
+scp /usr/share/java/mysql-connector-java.jar d2:~/
+scp /usr/share/java/mysql-connector-java.jar d3:~/
+
+ssh m1 "sudo mkdir -p /usr/share/java; sudo mv ~/mysql-connector-java.jar /usr/share/java/"
+ssh d1 "sudo mkdir -p /usr/share/java; sudo mv ~/mysql-connector-java.jar /usr/share/java/"
+ssh d2 "sudo mkdir -p /usr/share/java; sudo mv ~/mysql-connector-java.jar /usr/share/java/"
+ssh d3 "sudo mkdir -p /usr/share/java; sudo mv ~/mysql-connector-java.jar /usr/share/java/"
+```
+<img src="part1/image/22.JPG">
+
+##
+<br>
+
+
+
+##
+<br>
+
+
+
+##
+<br>
+
+
+
+##
+<br>
+
+
+
+##
+<br>
+
+
+
+
+
 
 <img src="part1/image/08.JPG">
 <img src="part1/image/09.JPG">
@@ -176,7 +200,7 @@ skcc:x:3800:1001::/home/skcc:/bin/bash
 
 
 
-<img src="part1/image/22.JPG">
+
 <img src="part1/image/23.JPG">
 <img src="part1/image/24.JPG">
 <img src="part1/image/25.JPG">
