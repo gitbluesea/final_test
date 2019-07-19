@@ -85,6 +85,10 @@ skcc:x:3800:1001::/home/skcc:/bin/bash
 </code></pre>
 <img src="part1/image/07.JPG">
 <img src="part1/image/02.JPG">
+<img src="part1/image/13.JPG">
+<img src="part1/image/14.JPG">
+<img src="part1/image/15.JPG">
+<img src="part1/image/16.JPG">
 
 IP address and DNS
 <pre><code>
@@ -103,10 +107,7 @@ IP address and DNS
 <img src="part1/image/10.JPG">
 <img src="part1/image/11.JPG">
 <img src="part1/image/12.JPG">
-<img src="part1/image/13.JPG">
-<img src="part1/image/14.JPG">
-<img src="part1/image/15.JPG">
-<img src="part1/image/16.JPG">
+
 <img src="part1/image/17.JPG">
 <img src="part1/image/18.JPG">
 <img src="part1/image/19.JPG">
