@@ -85,7 +85,6 @@ skcc:x:3800:1001::/home/skcc:/bin/bash
 </code></pre>
 <img src="part1/image/02.JPG">
 <img src="part1/image/13.JPG">
-<img src="part1/image/15.JPG">
 <img src="part1/image/16.JPG">
 
 ## IP address and DNS
@@ -113,6 +112,7 @@ skcc:x:3800:1001::/home/skcc:/bin/bash
 
 ## List the /etc/group entries for skcc
 <br>
+<img src="part1/image/15.JPG">
 
 ## getent group skcc 와 getent passwd training
 <br>
