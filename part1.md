@@ -93,14 +93,6 @@ IP address and DNS
 <img src="part1/image/04.JPG">
 <img src="part1/image/05.JPG">
 
-List the filesystem capacity
-<pre><code>
-[centos@cm ~]$ df -k
-</code></pre>
-
-<img src="part1/image/01.JPG">
-
-<img src="part1/image/03.JPG">
 
 
 <img src="part1/image/06.JPG">
