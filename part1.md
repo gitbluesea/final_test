@@ -117,9 +117,10 @@ skcc:x:3800:1001::/home/skcc:/bin/bash
 <img src="part1/image/14.JPG">
 
 
-##
+# Install a MySQl server
 <br>
-
+<img src="part1/image/17.JPG">
+<img src="part1/image/18.JPG">
 
 
 ##
@@ -165,8 +166,7 @@ skcc:x:3800:1001::/home/skcc:/bin/bash
 <img src="part1/image/09.JPG">
 
 
-<img src="part1/image/17.JPG">
-<img src="part1/image/18.JPG">
+
 <img src="part1/image/19.JPG">
 <img src="part1/image/20.JPG">
 <img src="part1/image/21.JPG">
