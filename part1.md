@@ -122,13 +122,21 @@ skcc:x:3800:1001::/home/skcc:/bin/bash
 <img src="part1/image/17.JPG">
 <img src="part1/image/18.JPG">
 
-
-##
+## shows the hostname
 <br>
+<img src="part1/image/19.JPG">
 
+## reports the database server version
+<br>
+<img src="part1/image/20.JPG">
 
+## lists all the databases
+<br>
+<img src="part1/image/21.JPG">
 
-##
+# Install Cloudera Manager
+
+## install CDH version 5.15.2
 <br>
 
 
@@ -167,9 +175,7 @@ skcc:x:3800:1001::/home/skcc:/bin/bash
 
 
 
-<img src="part1/image/19.JPG">
-<img src="part1/image/20.JPG">
-<img src="part1/image/21.JPG">
+
 <img src="part1/image/22.JPG">
 <img src="part1/image/23.JPG">
 <img src="part1/image/24.JPG">
