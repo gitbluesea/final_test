@@ -209,8 +209,16 @@ sudo tail -f /var/log/cloudera-scm-server/cloudera-scm-server.log
 <img src="part1/image/25.JPG">
 
 # Cloudera Manager WEB UI (install services)
+
+- 호스트 지정
+<br>
 <img src="part1/image/26.JPG">
+
+- 리포지토리 선택
+<br>
 <img src="part1/image/27.JPG">
+
+
 <img src="part1/image/28.JPG">
 <img src="part1/image/29.JPG">
 <img src="part1/image/30.JPG">
