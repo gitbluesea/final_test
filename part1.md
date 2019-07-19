@@ -83,6 +83,7 @@ ADD Account
 skcc:x:3800:1001::/home/skcc:/bin/bash
 [centos@ip-172-31-39-152 ~]$ sudo visudo
 </code></pre>
+<img src="part1/image/07.JPG">
 <img src="part1/image/02.JPG">
 
 IP address and DNS
@@ -104,7 +105,7 @@ List the filesystem capacity
 
 <img src="part1/image/06.JPG">
 <img src="part1/image/06-1.JPG">
-<img src="part1/image/07.JPG">
+
 <img src="part1/image/08.JPG">
 <img src="part1/image/09.JPG">
 <img src="part1/image/10.JPG">
