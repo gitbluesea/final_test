@@ -165,43 +165,57 @@ ssh d3 "sudo mkdir -p /usr/share/java; sudo mv ~/mysql-connector-java.jar /usr/s
 ```
 <img src="part1/image/22.JPG">
 
-##
-<br>
+## 보안설정
+```
+sudo /usr/bin/mysql_secure_installation
+```
 
-
-
-##
-<br>
-
-
-
-##
-<br>
-
-
-
-##
-<br>
-
-
-
-##
-<br>
-
-
-
-
-
-
-<img src="part1/image/08.JPG">
-<img src="part1/image/09.JPG">
-
-
-
-
-
+## Create Databases and users for Cloudera manager and eco systems
+```
+CREATE DATABASE scm DEFAULT CHARACTER SET utf8 DEFAULT COLLATE utf8_general_ci; GRANT ALL ON scm.* TO 'scm'@'%' IDENTIFIED BY 'training';
+CREATE DATABASE amon DEFAULT CHARACTER SET utf8 DEFAULT COLLATE utf8_general_ci; GRANT ALL ON amon.* TO 'amon'@'%' IDENTIFIED BY 'training';
+CREATE DATABASE rmon DEFAULT CHARACTER SET utf8 DEFAULT COLLATE utf8_general_ci; GRANT ALL ON rmon.* TO 'rmon'@'%' IDENTIFIED BY 'training';
+CREATE DATABASE hue DEFAULT CHARACTER SET utf8 DEFAULT COLLATE utf8_general_ci; GRANT ALL ON hue.* TO 'hue'@'%' IDENTIFIED BY 'training';
+CREATE DATABASE metastore DEFAULT CHARACTER SET utf8 DEFAULT COLLATE utf8_general_ci; GRANT ALL ON metastore.* TO 'metastore'@'%' IDENTIFIED BY 'training';
+CREATE DATABASE sentry DEFAULT CHARACTER SET utf8 DEFAULT COLLATE utf8_general_ci; GRANT ALL ON sentry.* TO 'sentry'@'%' IDENTIFIED BY 'training';
+CREATE DATABASE oozie DEFAULT CHARACTER SET utf8 DEFAULT COLLATE utf8_general_ci; GRANT ALL ON oozie.* TO 'oozie'@'%' IDENTIFIED BY 'training';
+FLUSH PRIVILEGES;
+EXIT;
+>
+SHOW DATABASES;
+```
 <img src="part1/image/23.JPG">
 <img src="part1/image/24.JPG">
+
+##
+<br>
+
+
+
+##
+<br>
+
+
+
+##
+<br>
+
+
+
+##
+<br>
+
+
+
+##
+<br>
+
+
+
+
+
+
+
 <img src="part1/image/25.JPG">
 <img src="part1/image/26.JPG">
 <img src="part1/image/27.JPG">
