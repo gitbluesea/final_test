@@ -94,8 +94,44 @@ List the filesystem capacity
 [centos@cm ~]$ df -k
 </code></pre>
 
-
-
+<img src="part1/image/01.JPG">
+<img src="part1/image/02.JPG">
+<img src="part1/image/03.JPG">
+<img src="part1/image/04.JPG">
+<img src="part1/image/05.JPG">
+<img src="part1/image/06.JPG">
+<img src="part1/image/06-1.JPG">
+<img src="part1/image/07.JPG">
+<img src="part1/image/08.JPG">
+<img src="part1/image/09.JPG">
+<img src="part1/image/10.JPG">
+<img src="part1/image/11.JPG">
+<img src="part1/image/12.JPG">
+<img src="part1/image/13.JPG">
+<img src="part1/image/14.JPG">
+<img src="part1/image/15.JPG">
+<img src="part1/image/16.JPG">
+<img src="part1/image/17.JPG">
+<img src="part1/image/18.JPG">
+<img src="part1/image/19.JPG">
+<img src="part1/image/20.JPG">
+<img src="part1/image/21.JPG">
+<img src="part1/image/22.JPG">
+<img src="part1/image/23.JPG">
+<img src="part1/image/24.JPG">
+<img src="part1/image/25.JPG">
+<img src="part1/image/26.JPG">
+<img src="part1/image/27.JPG">
+<img src="part1/image/28.JPG">
+<img src="part1/image/29.JPG">
+<img src="part1/image/30.JPG">
+<img src="part1/image/31.JPG">
+<img src="part1/image/32.JPG">
+<img src="part1/image/33.JPG">
+<img src="part1/image/34.JPG">
+<img src="part1/image/35.JPG">
+<img src="part1/image/80.JPG">
+<img src="part2/image/81.JPG">
 
 <pre><code>
 
