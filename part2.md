@@ -107,7 +107,12 @@ SELECT CONCAT(fname, ',' , lname) AS name
 ## problem 8
 
 ```
-sqoop export --connect jdbc:mysql://localhost/problem8 --username cloudera --password cloudera --export-dir /user/training/problem8/data/customer --table solution --input-fields-terminated-by '\t'
+sqoop export --connect jdbc:mysql://localhost/problem8    \
+      --username cloudera                                 \
+      --password cloudera                                 \
+      --export-dir /user/training/problem8/data/customer  \
+      --table solution                                    \
+      --input-fields-terminated-by '\t'
 ```
 
 ## problem 9
