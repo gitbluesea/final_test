@@ -120,7 +120,6 @@ skcc:x:3800:1001::/home/skcc:/bin/bash
 # Install a MariaDB server
 <br>
 <img src="part1/image/17.JPG">
-<img src="part1/image/18.JPG">
 
 ## shows the hostname
 <br>
@@ -169,6 +168,7 @@ ssh d3 "sudo mkdir -p /usr/share/java; sudo mv ~/mysql-connector-java.jar /usr/s
 ```
 sudo /usr/bin/mysql_secure_installation
 ```
+<img src="part1/image/18.JPG">
 
 ## Create Databases and users for Cloudera manager and eco systems
 ```
