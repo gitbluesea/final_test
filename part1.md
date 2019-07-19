@@ -117,7 +117,7 @@ skcc:x:3800:1001::/home/skcc:/bin/bash
 <img src="part1/image/14.JPG">
 
 
-# Install a MySQl server
+# Install a MariaDB server
 <br>
 <img src="part1/image/17.JPG">
 <img src="part1/image/18.JPG">
