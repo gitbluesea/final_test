@@ -48,62 +48,7 @@ sudo vi /etc/sysctl.conf
   =>  vm.swappiness=1
 </code></pre>
 
-6. SSH Connetion 설정
-
-- SSH 키 생성
-```
-[centos@d3 ~]$ ssh-keygen
-Generating public/private rsa key pair.
-Enter file in which to save the key (/home/centos/.ssh/id_rsa):
-Enter passphrase (empty for no passphrase): (enter)
-Enter same passphrase again: (enter)
-Your identification has been saved in /home/centos/.ssh/id_rsa.
-Your public key has been saved in /home/centos/.ssh/id_rsa.pub.
-The key fingerprint is:
-SHA256:wouk+1aqVndIYB37eh1y9SfqfyyKELq9cbUkFh7Fzpw centos@d3.com
-The key's randomart image is:
-+---[RSA 2048]----+
-|     ...   ..    |
-|    o ..   ..    |
-|   . ..   o+..   |
-|     ... . +E.   |
-|    ..o.S * o o .|
-|   o..+=.* = o o |
-|  ...++.+ o o  . |
-|  ..o  + + o  . o|
-| .o+. . o.. oo.o |
-+----[SHA256]-----+
-```
-
-- SSH 키 복사
-```
-[centos@d3 .ssh]$ ssh-copy-id centos@m1
-/usr/bin/ssh-copy-id: INFO: Source of key(s) to be installed: "/home/centos/.ssh/id_rsa.pub"
-/usr/bin/ssh-copy-id: INFO: attempting to log in with the new key(s), to filter out any that are already installed
-/usr/bin/ssh-copy-id: INFO: 1 key(s) remain to be installed -- if you are prompted now it is to install the new keys
-centos@m1's password:
-
-Number of key(s) added: 1
-
-Now try logging into the machine, with:   "ssh 'centos@m1'"
-and check to make sure that only the key(s) you wanted were added.
-```
-
-- 각 서버별로 복사 및 접속 확인
-```
-$ ssh-copy-id centos@m1
-$ ssh-copy-id centos@cm
-$ ssh-copy-id centos@d1
-$ ssh-copy-id centos@d2
-$ ssh-copy-id centos@d3
-$ ssh m1
-$ ssh cm
-$ ssh d1
-$ ssh d2
-$ ssh d3
-```
-
-7. Disable Transparent Hugepage Support
+6. Disable Transparent Hugepage Support
 <pre><code>
 sudo vi /etc/rc.d/rc.local
   =>  
@@ -115,7 +60,7 @@ sudo vi /etc/default/grub
 grub2-mkconfig -o /boot/grub2/grub.cfg
 </code></pre>
 
-8. 필요시 IP V6 disable
+7. 필요시 IP V6 disable
 <pre><code>
 sudo sysctl -w net.ipv6.conf.all.disable_ipv6=1
 sudo sysctl -w net.ipv6.conf.default.disable_ipv6=1
@@ -166,6 +111,58 @@ skcc:x:3800:1001::/home/skcc:/bin/bash
 <br>
 <img src="part1/image/14.JPG">
 
+## SSH Connetion 설정
+
+- SSH 키 생성
+```
+[training@cm ~]$ ssh-keygen
+Generating public/private rsa key pair.
+Enter file in which to save the key (/home/training/.ssh/id_rsa):
+Enter passphrase (empty for no passphrase): (enter)
+Enter same passphrase again: (enter)
+Your identification has been saved in /home/training/.ssh/id_rsa.
+Your public key has been saved in /home/training/.ssh/id_rsa.pub.
+The key fingerprint is:
+SHA256:wouk+1aqVndIYB37eh1y9SfqfyyKELq9cbUkFh7Fzpw training@cm.com
+The key's randomart image is:
++---[RSA 2048]----+
+|     ...   ..    |
+|    o ..   ..    |
+|   . ..   o+..   |
+|     ... . +E.   |
+|    ..o.S * o o .|
+|   o..+=.* = o o |
+|  ...++.+ o o  . |
+|  ..o  + + o  . o|
+| .o+. . o.. oo.o |
++----[SHA256]-----+
+```
+
+- SSH 키 복사
+```
+[training@cm .ssh]$ ssh-copy-id training@m1
+/usr/bin/ssh-copy-id: INFO: Source of key(s) to be installed: "/home/training/.ssh/id_rsa.pub"
+/usr/bin/ssh-copy-id: INFO: attempting to log in with the new key(s), to filter out any that are already installed
+/usr/bin/ssh-copy-id: INFO: 1 key(s) remain to be installed -- if you are prompted now it is to install the new keys
+training@m1's password:
+
+Number of key(s) added: 1
+
+Now try logging into the machine, with:   "ssh 'training@m1'"
+and check to make sure that only the key(s) you wanted were added.
+```
+
+- 각 서버별로 복사 및 접속 확인
+```
+$ ssh-copy-id training@m1
+$ ssh-copy-id training@d1
+$ ssh-copy-id training@d2
+$ ssh-copy-id training@d3
+$ ssh m1
+$ ssh d1
+$ ssh d2
+$ ssh d3
+```
 
 # Install a MariaDB server
 <br>
