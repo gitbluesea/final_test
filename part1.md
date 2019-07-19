@@ -138,11 +138,10 @@ skcc:x:3800:1001::/home/skcc:/bin/bash
 
 ## install CDH version 5.15.2
 <br>
+
+## Import Cloudera manager repository 
 <img src="part1/image/06-1.JPG">
 <img src="part1/image/06.JPG">
-
-
-## Import Cloudera manager repository on mcm : 계정 trainning
 
 ## mysql-connector setting
 ```
