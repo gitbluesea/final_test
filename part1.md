@@ -84,10 +84,13 @@ skcc:x:3800:1001::/home/skcc:/bin/bash
 [centos@ip-172-31-39-152 ~]$ sudo visudo
 </code></pre>
 
+
 IP address and DNS
 <pre><code>
 [centos@cm ~]$ getent hosts
 </code></pre>
+<img src="part1/image/04.JPG">
+<img src="part1/image/05.JPG">
 
 List the filesystem capacity
 <pre><code>
@@ -97,8 +100,8 @@ List the filesystem capacity
 <img src="part1/image/01.JPG">
 <img src="part1/image/02.JPG">
 <img src="part1/image/03.JPG">
-<img src="part1/image/04.JPG">
-<img src="part1/image/05.JPG">
+
+
 <img src="part1/image/06.JPG">
 <img src="part1/image/06-1.JPG">
 <img src="part1/image/07.JPG">
