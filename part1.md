@@ -72,11 +72,11 @@ sudo sysctl -w net.ipv6.conf.default.disable_ipv6=1
 - 3800 UID 로 training 계정 생성, 암호 설정, skcc 그룹 생성
 - sudo 권한 부여
 <pre><code>
-[centos@ip-172-31-39-152 ~]$ sudo groupadd skcc
-[centos@ip-172-31-39-152 ~]$ sudo useradd training -u 3800 -g skcc
-[centos@ip-172-31-39-152 ~]$ more /etc/passwd | grep skcc
+[centos@ip-172-31-33-97 ~]$ sudo groupadd skcc
+[centos@ip-172-31-33-97 ~]$ sudo useradd training -u 3800 -g skcc
+[centos@ip-172-31-33-97 ~]$ more /etc/passwd | grep skcc
 skcc:x:3800:1001::/home/skcc:/bin/bash
-[centos@ip-172-31-39-152 ~]$ sudo visudo
+[centos@ip-172-31-33-97 ~]$ sudo visudo
 </code></pre>
 <img src="part1/image/02.JPG">
 
