@@ -257,43 +257,43 @@ sudo tail -f /var/log/cloudera-scm-server/cloudera-scm-server.log
 
 # Cloudera Manager WEB UI (install services)
 
-- 호스트 지정
+## 호스트 지정
 <br>
 <img src="part1/image/26.JPG">
 
-- 리포지토리 선택
+## 리포지토리 선택
 <br>
 <img src="part1/image/27.JPG">
 
-- ssh 로그인 정보 제공
+## ssh 로그인 정보 제공
 <br>
 <img src="part1/image/28.JPG">
 
-- Install Agents
+## Install Agents
 <br>
 <img src="part1/image/29.JPG">
 
-- Parcel 설치
+## Parcel 설치
 <br>
 <img src="part1/image/30.JPG">
 
-- 호스트 정확성 검사
+## 호스트 정확성 검사
 <br>
 <img src="part1/image/31.JPG">
 
-- 역할 할당
+## 역할 할당
 <br>
 <img src="part1/image/32.JPG">
 
-- 데이터베이스 설정
+## 데이터베이스 설정
 <br>
 <img src="part1/image/33.JPG">
 
-- 서비스 개시
+## 서비스 개시
 <br>
 <img src="part1/image/35.JPG">
 
-## In MySQL create the sample tables that will be used for the rest of the test
+# In MySQL create the sample tables that will be used for the rest of the test
 <img src="part1/image/80.JPG">
 <img src="part1/image/81.JPG">
 
